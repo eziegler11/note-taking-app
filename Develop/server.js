@@ -1,7 +1,7 @@
 // Dependencies
 const express = require('express');
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const api = require('./routes/api');
+const html = require('./routes/html');
 
 // Port & App
 const app = express();
@@ -13,8 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // Middleware
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+app.use('/api', api);
+app.use('/', html);
 
 // Start on the port
-app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}/`));

@@ -9,14 +9,20 @@ I was motivated to create this application as a simple, easy and efficient way t
 The steps to install my project are as follows:
 
 - Clone or fork my code from GitHub
-- Install the required dependencies (Express & UUID) in the command line
-- Open the index in the browser
+- Install the required dependencies (Express & UUID) via "npm init" in the command line
+- Run "node server.js" in the command line
 
 ## Usage
 
-Here is an example of the file running within the terminal to generate the ReadMe.
+Here is a link to the deployed application:
 
-![Project running within the terminal](./assets/images/app_screenshot.png)
+
+Here are a few screenshots of the app functionality:
+
+![Main page of the note app](Assets/Screenshot_1.png)
+![Adding a new note](Assets/Screenshot_2.png)
+![Inserting text into a note](Assets/Screenshot_3.png)
+![Saving a note and displaying it after save](Assets/Screenshot_4.png)
 
 ## License
 
