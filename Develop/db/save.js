@@ -18,7 +18,7 @@ class Save {
   }
 
 // Deletes a note based on id
-    removeNote(id) {
+    deleteNote(id) {
         return this.returnNotes()
         .then((notes) => notes.filter((note) => note.id !== id))
         .then((filteredNotes) => this.write(filteredNotes));
