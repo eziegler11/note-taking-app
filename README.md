@@ -16,17 +16,22 @@ The steps to install my project are as follows:
 
 Here is a link to the deployed application:
 
+https://cryptic-brushlands-36969.herokuapp.com/
 
 Here are a few screenshots of the app functionality:
 
 ![Main page of the note app](Assets/Screenshot_1.png)
 Main page of the note app
+
 ![Adding a new note](Assets/Screenshot_2.png)
 Adding a new note
+
 ![Inserting text into a note](Assets/Screenshot_3.png)
 Inserting text into a note
+
 ![Saving a note and displaying it after save](Assets/Screenshot_4.png)
 Saving a note and displaying it after save
+
 
 ## License
 
